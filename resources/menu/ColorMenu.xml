@@ -1,0 +1,7 @@
+<menu id="ColorMenu">
+	
+    <menu-item id="MiBackground">Background</menu-item>
+    <menu-item id="MiLabel">Labels</menu-item>
+    <menu-item id="MiText">Text</menu-item>
+    
+</menu>

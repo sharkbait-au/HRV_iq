@@ -1,0 +1,6 @@
+<menu id="BackgroundMenu">
+    
+    <menu-item id="MiZero">Black</menu-item>
+    <menu-item id="MiOne">White</menu-item>
+
+</menu>

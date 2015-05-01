@@ -1,0 +1,10 @@
+<menu id="MainMenu">
+    
+    <menu-item id="MiTestType">Test Type</menu-item>    
+    <menu-item id="MiSettings">Settings</menu-item>
+<!--     <menu-item id="MiColor">Colors</menu-item> -->
+<!--     <menu-item id="MiReset">Reset</menu-item> -->
+<!--     <menu-item id="MiSound">Sound</menu-item>     -->
+	<menu-item id="MiAbout">About</menu-item>
+    
+</menu>

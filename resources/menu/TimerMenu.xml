@@ -1,0 +1,6 @@
+<menu id="TimerMenu">
+    
+    <menu-item id="MiDuration">Duration</menu-item>
+<!--     <menu-item id="MiLight">Light</menu-item> -->
+
+</menu>

@@ -1,0 +1,6 @@
+<menu id="ResetMenu">
+    
+    <menu-item id="MiSettings">Settings</menu-item>
+    <menu-item id="MiResults">Results</menu-item>  
+    
+</menu>

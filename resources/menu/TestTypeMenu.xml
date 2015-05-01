@@ -1,0 +1,7 @@
+<menu id="TestTypeMenu">
+    
+    <menu-item id="MiTimer">Timer</menu-item>
+    <menu-item id="MiManual">Manual</menu-item>    
+    <menu-item id="MiAuto">Auto</menu-item>
+    
+</menu>

@@ -1,0 +1,7 @@
+<menu id="BreatheMenu">
+    
+    <menu-item id="MiInhale">Inhale time</menu-item>
+	<menu-item id="MiExhale">Exhale time</menu-item>
+	<menu-item id="MiRelax">Relax time</menu-item>
+
+</menu>

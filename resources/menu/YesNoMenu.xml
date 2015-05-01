@@ -1,0 +1,6 @@
+<menu id="YesNoMenu">
+    
+    <menu-item id="MiZero">No</menu-item>
+    <menu-item id="MiOne">Yes</menu-item>
+
+</menu>

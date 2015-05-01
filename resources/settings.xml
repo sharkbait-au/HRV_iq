@@ -1,0 +1,29 @@
+<resources>
+    
+<!--     <string id="Timestamp">1428490789</string> v 1.0 -->
+<!--     <string id="Timestamp">1429685468</string> v 1.1.0  -->
+	<!-- <string id="Timestamp">1430338749</string> v 1.1.1 -->  
+	<string id="Timestamp">1430404698</string><!-- v 1.1.2 -->     
+    <string id="AppName">HRV</string>
+    <string id="Version">1.1.2</string>
+    
+    <string id="GreenTime">240</string>
+    <string id="Sound">1</string>
+    <string id="Vibe">1</string>
+    <string id="TestType">0</string>
+    <string id="TimerTime">60</string>
+    <string id="AutoStart">3600</string>
+    <string id="AutoTime">3600</string>
+    <string id="BgCol">0</string>
+    <string id="LblCol">43775</string>
+    <string id="TxtCol">16777215</string>
+    <string id="HrvCol">43775</string>
+    <string id="AvgHrvCol">255</string>
+    <string id="PulseCol">16733440</string>
+    <string id="AvgPulseCol">11141120</string>
+    
+    <string id="inhaleTime">3</string>
+    <string id="exhaleTime">3</string>
+    <string id="relaxTime">2</string>
+
+</resources>

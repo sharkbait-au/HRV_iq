@@ -1,0 +1,6 @@
+<menu id="AutoMenu">
+    
+    <menu-item id="MiDuration">Duration</menu-item>
+    <menu-item id="MiSchedule">Schedule</menu-item>
+
+</menu>

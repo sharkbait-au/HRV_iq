@@ -1,0 +1,18 @@
+<menu id="ColorListMenu">
+	
+    <menu-item id="MiBlack">Black</menu-item>
+    <menu-item id="MiWhite">White</menu-item>
+    <menu-item id="MiBlue">Blue</menu-item>
+    <menu-item id="MiDkBlue">Dark Blue</menu-item>
+    <menu-item id="MiRed">Red</menu-item>
+    <menu-item id="MiDkRed">Dark Red</menu-item>
+    <menu-item id="MiLtGray">Light Gray</menu-item>
+    <menu-item id="MiDkGray">Dark Gray</menu-item>
+    <menu-item id="MiGreen">Green</menu-item>
+    <menu-item id="MiDkGreen">Dark Green</menu-item>
+    <menu-item id="MiOrange">Orange</menu-item>
+    <menu-item id="MiYellow">Yellow</menu-item>
+    <menu-item id="MiPurple">Purple</menu-item>
+    <menu-item id="MiPink">Pink</menu-item>
+    
+</menu>

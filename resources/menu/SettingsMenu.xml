@@ -1,0 +1,13 @@
+<menu id="SettingsMenu">
+    
+    <menu-item id="MiTimer">Timer test</menu-item>
+<!--     <menu-item id="MiManual">Manual</menu-item> -->
+    <menu-item id="MiAuto">Auto test</menu-item>
+    <menu-item id="MiBreathe">Breathe cycle</menu-item>
+    <menu-item id="MiColor">Colors</menu-item>
+    <menu-item id="MiGreen">Green timer</menu-item>
+    <menu-item id="MiSound">Sound</menu-item>
+    <menu-item id="MiVibration">Vibration</menu-item>
+	<menu-item id="MiReset">Reset</menu-item>
+
+</menu>
