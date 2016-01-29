@@ -30,7 +30,7 @@ class TestView extends Ui.View {
 
     	// Default layout settings
 	    var titleFont = 4;		// Gfx.FONT_LARGE
-	    var numFont = 5;		// Gfx.FONT_NUMBER_MILD
+	    var numFont = 6;		// Gfx.FONT_NUMBER_MILD
 	    var titleY = 14;
 	    var strapY = 33;
 	    var pulseY = 49;
@@ -46,12 +46,19 @@ class TestView extends Ui.View {
 	    var col3 = 164;
 
 		if(FORERUNNER == app.device) {
-        	numFont = 6;		// Gfx.FONT_NUMBER_MEDIUM
+        	//numFont = 6;		// Gfx.FONT_NUMBER_MEDIUM
 			resLblY = 100;
 			pulseLblY = 12;
 	    	pulseTxtY = 40;
         }
+        else if(VIVOACTIVE == app.device) {
+        	//numFont = 6;		// Gfx.FONT_NUMBER_MEDIUM
+        }
+        else if(EPIX == app.device) {
+        	numFont = 6;		// Gfx.FONT_NUMBER_MEDIUM
+        }
         else if(FENIX == app.device) {
+        	numFont = 5;		// Gfx.FONT_NUMBER_MEDIUM
         	titleFont = 3;		// Gfx.FONT_MEDIUM
 			titleY = 47;
 			strapY = 67;

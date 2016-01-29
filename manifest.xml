@@ -2,19 +2,18 @@
     <iq:application entry="HRVApp" id="2AA71BCC868A43A9963A99E808401472" launcherIcon="LauncherIcon" name="AppName" type="watch-app">
 
         <iq:products>
-            <iq:product id="vivoactive" partNumber="006-B1907-00"/>
-            <iq:product id="fenix3" partNumber="006-B2050-00"/>
-            <iq:product id="fr920xt" partNumber="006-B1765-00"/>
-            <iq:product id="epix" partNumber="006-B1988-00"/>
+            <iq:product id="vivoactive"/>
+            <iq:product id="fenix3"/>
+            <iq:product id="d2bravo"/>
+            <iq:product id="fr920xt"/>
+            <iq:product id="epix"/>
         </iq:products>
 
         <iq:permissions>
-            <iq:uses-permission id="ANT"/>
+            <iq:uses-permission id="Ant"/>
         </iq:permissions>
 
-        <iq:languages>
-            <iq:language>eng</iq:language>
-        </iq:languages>
+        <iq:languages/>
 
     </iq:application>
 </iq:manifest>

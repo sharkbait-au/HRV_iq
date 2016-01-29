@@ -2,10 +2,11 @@
     
 <!--     <string id="Timestamp">1428490789</string> v 1.0 -->
 <!--     <string id="Timestamp">1429685468</string> v 1.1.0  -->
-	<!-- <string id="Timestamp">1430338749</string> v 1.1.1 -->  
-	<string id="Timestamp">1430404698</string><!-- v 1.1.2 -->     
+<!--	<string id="Timestamp">1430338749</string> v 1.1.1 -->  
+<!--	<string id="Timestamp">1430404698</string> v 1.1.3 -->
+	<string id="Timestamp">1447234278</string><!-- v 1.1.6 -->  
     <string id="AppName">HRV</string>
-    <string id="Version">1.1.2</string>
+    <string id="Version">1.1.6</string>
     
     <string id="GreenTime">240</string>
     <string id="Sound">1</string>

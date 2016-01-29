@@ -109,7 +109,7 @@ class GraphView extends Ui.View {
 			line2Y = 124;
 		}
 
-		// Prepare te screen
+		// Prepare the screen
 		dc.setColor(-1, app.bgColSet);
 		dc.clear();
 
@@ -124,7 +124,6 @@ class GraphView extends Ui.View {
         dc.drawLine(0, line1Y, dc.getWidth(), line1Y);
 		dc.drawLine(0, line2Y, dc.getWidth(), line2Y);
 
-
 		// Draw the numbers
 		dc.setColor(DK_GRAY, app.bgColSet);
 		for(var i = 1; i < 6; i += 2) {
@@ -132,16 +131,17 @@ class GraphView extends Ui.View {
 			var y = ceilY + (((i * gap) * scaleY) / 2);
 			var num = ceil - ((i * gap) / 2.0);
 			if(num != num.toNumber()) {
-				dc.drawText(textX + 35, y, font, format(" $1$ ",[num.format("%-0.1f")]), just);
+				dc.drawText(textX + 35, y, font, format(" $1$ ",[num.format("%0.1f")]), just);
 			}
 			else {
-				dc.drawText(textX + 35, y, font, format(" $1$ ",[num.format("%-d")]), just);
+				dc.drawText(textX + 35, y, font, format(" $1$ ",[num.format("%d")]), just);
 			}
 		}
+
 		for(var i = 0; i < 7; i += 2) {
 
 			var y = ceilY + (((i * gap) * scaleY) / 2);
-			var str = format(" $1$ ",[(ceil - ((i * gap)/2)).format("%-d")]);
+			var str = format(" $1$ ",[(ceil - ((i * gap)/2)).format("%d")]);
 			dc.drawText(textX, y, font, str, just);
 		}
 

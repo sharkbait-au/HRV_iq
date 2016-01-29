@@ -200,10 +200,6 @@ class HRVApp extends App.AppBase {
 		// Retrieve device type
 		device = Ui.loadResource(Rez.Strings.Device).toNumber();
 
-		if(VIVOACTIVE == device) {
-		 	return;
-		}
-
 		// Retrieve saved settings from memory
 		resetSettings();
     	var value;
@@ -434,6 +430,16 @@ class HRVApp extends App.AppBase {
 		//utcStart = timeNow();
 		utcStart = startMoment.value() + System.getClockTime().timeZoneOffset;
 		isTesting = true;
+
+		// Print live data
+		//var date = Calendar.info(startMoment, 0);
+    	//System.println(format("$1$-$2$-$3$ $4$:$5$:$6$",[
+    	//	date.year,
+    	//	date.month,
+    	//	date.day,
+    	//	date.hour,
+    	//	date.min.format("%02d"),
+    	//	date.sec.format("%02d")]));
     }
 
     function saveTest()
@@ -489,10 +495,6 @@ class HRVApp extends App.AppBase {
 
     //! onStop() is called when your application is exiting
     function onStop() {
-
-    	if(VIVOACTIVE == device) {
-		 	return;
-		}
 
     	// Cloase ant channel
 		closeCh();
@@ -582,9 +584,7 @@ class HRVApp extends App.AppBase {
 
     //! Return the initial view of your application here
     function getInitialView() {
-        if(VIVOACTIVE == device) {
-		 	return [ new VivoView(), new VivoDelegate() ];
-		}
+
 		return [ new TestView(), new HRVInputDelegate() ];
     }
 
@@ -636,6 +636,12 @@ class HRVApp extends App.AppBase {
 						hrv = ((Math.log(rmssd, 1.0512712)) + 0.5).toNumber();
 						avgPulse = ((pulseSum.toFloat() / dataCount) + 0.5).toNumber();
 					}
+
+					// Print live data
+					//if(isTesting){
+					//	var liveMs = (intMs.toFloat() / 1000);
+					//	System.println(liveMs.format("%.03f"));
+					//}
 				}
 				mPrevIntMs = intMs;
 			}
